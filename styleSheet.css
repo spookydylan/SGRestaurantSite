@@ -1,0 +1,22 @@
+.carousel-caption {
+    color: yellow;
+    font-weight:bolder;
+}
+
+.nav-link{
+    color:#d8dfff;
+}
+
+.nav-link:visited{
+color: #dfc4f2;
+}
+
+.nav-link:hover{
+font-weight: bold;
+background-color: #dfc4f2;
+color: #253d5b;
+}
+
+.nav-link:active{
+text-decoration: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>The Swan and Tomato: Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #backgroundPage {
+            background-color: #d8dfff;
+        }
+    </style>
+</header>
+
+<body>
+
+    <noscript>
+        <style type="text/css">
+            .pagecontainer {
+                display: none;
+            }
+        </style>
+        <div class="noscriptmsg">
+            <h1>Please activate Javascript to enjoy our site!</h1>
+        </div>
+    </noscript>
+
+    <div class="pagecontainer">
+
+        <div id="title" style="margin:0">
+            <h1 align="center" style="background-color: #D8DFFF; margin:0; padding:10px;">The Swan and Tomato</h1>
+        </div>
+
+        <hr style="border:0;margin:0;background-color: #D8DFFF" />
+
+        <ul class="nav nav-pills nav-justified" style="background-color:#67697c">
+            <li class="nav-item col-sm">
+                <a class="nav-link" href="homepage.html" target="_blank">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li class="nav-item col-sm">
+                <a class="nav-link" href="menu.html" target="_blank">Menu</a>
+            </li>
+            <li class="nav-item col-sm">
+                <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            </li>
+        </ul>
+
+        <hr style="border:0;margin:0;background-color: #D8DFFF" />
+
+        <div id="backgroundPage">
+
+            <div id="contactform">
+                <form action="fakepage.html" method="POST">
+                    Name:
+                    <input type="text" name="myTextInput" />
+                    <br/> Email:
+                    <input type="text" name="myTextInput" />
+                    <br/> Phone:
+                    <input type="text" name="myTextInput" />
+                    <br/> Reason for Inquiry:
+                    <select name="reasons">
+                        <option value="catering">catering</option>
+                        <option value="private party">private party</option>
+                        <option value="feedback">feedback</option>
+                        <option value="other">other</option>
+                    </select>
+                    <br/> Additional Info
+                    <br/>
+                    <textarea name="additionalinfo"></textarea>
+                    <br/> Have you visited our pub?
+                    <br/>
+                    <input type=radio name="answer" value="yes" />yes
+                    <br/>
+                    <input type=radio name="answer" value="no" />no
+                    <br/> Best day(s) to contact:
+                    <input type="checkbox" name="contactday" value="Monday" />Monday
+                    <input type="checkbox" name="contactday" value="Tuesday" />Tuesday
+                    <input type="checkbox" name="contactday" value="Wednesday" />Wednesday
+                    <input type="checkbox" name="contactday" value="Thursday" />Thursday
+                    <input type="checkbox" name="contactday" value="Friday" />Friday
+                    <input type="checkbox" name="contactday" value="Saturday" />Saturday
+                    <input type="checkbox" name="contactday" value="Sunday" />Sunday
+                    <br/>
+                    <input type="submit" />
+                    <input type="reset" />
+                </form>
+            </div>
+
+        </div>
+
+        <hr style="border:0;margin:0;background-color: #D8DFFF" />
+        <div id="footer">
+            <footer align="center">
+                <p>123 Main Street, Townsville, KY, 44444</p>
+                <p>502.555.5555</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
